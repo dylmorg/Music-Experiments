@@ -1,0 +1,11 @@
+C:\Users\morgd\GitTest\testFolder\bin\Debug\netcoreapp2.1\testFolder.deps.json
+C:\Users\morgd\GitTest\testFolder\bin\Debug\netcoreapp2.1\testFolder.runtimeconfig.json
+C:\Users\morgd\GitTest\testFolder\bin\Debug\netcoreapp2.1\testFolder.runtimeconfig.dev.json
+C:\Users\morgd\GitTest\testFolder\bin\Debug\netcoreapp2.1\testFolder.dll
+C:\Users\morgd\GitTest\testFolder\bin\Debug\netcoreapp2.1\testFolder.pdb
+C:\Users\morgd\GitTest\testFolder\obj\Debug\netcoreapp2.1\testFolder.csprojAssemblyReference.cache
+C:\Users\morgd\GitTest\testFolder\obj\Debug\netcoreapp2.1\testFolder.csproj.CoreCompileInputs.cache
+C:\Users\morgd\GitTest\testFolder\obj\Debug\netcoreapp2.1\testFolder.AssemblyInfoInputs.cache
+C:\Users\morgd\GitTest\testFolder\obj\Debug\netcoreapp2.1\testFolder.AssemblyInfo.cs
+C:\Users\morgd\GitTest\testFolder\obj\Debug\netcoreapp2.1\testFolder.dll
+C:\Users\morgd\GitTest\testFolder\obj\Debug\netcoreapp2.1\testFolder.pdb
