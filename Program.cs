@@ -6,21 +6,21 @@ namespace testFolder
     {
         static void Main(string[] args)
         {
-            var lastNote = notes.note.A;
+           var lastNote = note.A;
            while(true)
            {
                lastNote = GenerateNextNote(lastNote);
 
            }
         }
-        public static notes.note GenerateNextNote(notes.note lastNote)
+        public static note GenerateNextNote(note lastNote)
         {
             lastNote = ++lastNote;
             playNote(lastNote);
             return lastNote;
         }
-        //Change testing
-        public static void playNote(notes.note currentNote)
+        //Change test
+        public static void playNote(note currentNote)
         {
             Console.Beep((int)(440 * Math.Pow(Math.Pow(2,(double)1/12),(int)currentNote - 1)), 1000);
         }

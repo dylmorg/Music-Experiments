@@ -1,8 +1,7 @@
 using System;
 namespace testFolder
 {
-    public class notes
-    {
+  
         public enum note : int {
             A = 1,
             BFlat = 2,
@@ -23,7 +22,5 @@ namespace testFolder
             GSharp = 12,
             AFlat = GSharp                   
         };
-        
-    }
     
 }
