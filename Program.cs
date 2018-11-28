@@ -16,14 +16,10 @@ namespace testFolder
         public static note GenerateNextNote(note lastNote)
         {
             lastNote = ++lastNote;
-            playNote(lastNote);
+            PlayNote.PlaySingleNote(lastNote);
             return lastNote;
         }
-        //Change testing
-        //Plays the note given, based on the number of note specified
-        public static void playNote(note currentNote)
-        {
-            Console.Beep((int)(440 * Math.Pow(Math.Pow(2,(double)1/12),(int)currentNote - 1)), 1000);
-        }
+        
+        
     }
 }
