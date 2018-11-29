@@ -12,6 +12,7 @@ namespace testFolder
             
             Console.Beep((int)(440 * Math.Pow(Math.Pow(2,(double)1/12),(int)currentNote - 1)), 1000);
         }
+        //Plays the series of notes given
         public static void PlayNotes(List<note> noteList)
         {
             note[] noteArray = noteList.ToArray();
