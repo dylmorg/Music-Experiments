@@ -11,7 +11,7 @@ namespace testFolder
             scale.Add(firstNote);
             note currentNote = firstNote;
             int scaleLength = 8;
-            for (int i = 1; i <= 8; i++)
+            for (int i = 1; i <= scaleLength; i++)
             {
                 currentNote = currentNote + 2;
                 if (i%4 == 0)
@@ -24,14 +24,6 @@ namespace testFolder
                 }                
                 scale.Add(currentNote);
             }        
-        }
-        public static void PlayNotes(List<note> noteList)
-        {
-            note[] noteArray = noteList.ToArray();
-            for (int i = 0; i < noteList.Count; i++)
-            {
-                PlaySingleNote(noteList[i]);                
-            }
         }
     }
 }
