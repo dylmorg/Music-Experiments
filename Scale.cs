@@ -11,13 +11,16 @@ namespace testFolder
             scale.Add(firstNote);
             note currentNote = firstNote;
             int scaleLength = 8;
+            //For each note in the scale
             for (int i = 1; i <= scaleLength; i++)
             {
                 currentNote = currentNote + 2;
+                //In Western scales, every fourth step is a half step
                 if (i%4 == 0)
                 {
                     --currentNote;
                 }
+                //If we have gone over an octave, bring it back down
                 if ((int)currentNote > 12)
                 {
                     currentNote = currentNote - 12;

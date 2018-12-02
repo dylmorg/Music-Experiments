@@ -13,6 +13,7 @@ namespace testFolder
 
            }
         }
+        //Probably need to move into its own class
         public static note GenerateNextNote(note lastNote)
         {
             lastNote = ++lastNote;
