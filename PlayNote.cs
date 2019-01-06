@@ -1,25 +1,25 @@
 using System;
 using System.Collections.Generic;
 
-namespace testFolder
+namespace testFolder 
 {
     //Actual class that plays any notes
     public class PlayNote
     {
         
         //Plays the note given, based on the number of note specified
-        public static void PlaySingleNote(note currentNote)
-        {
-            
-            Console.Beep((int)(440 * Math.Pow(Math.Pow(2,(double)1/12),(int)currentNote)), 1000);
+        public static void PlaySingleNote(Note currentNote, int length)
+        {            
+            Console.Beep((int)(440 * (double)Math.Pow((double)2.0, (double)currentNote.noteNumber / 12 + currentNote.octave - 4  )), length);
         }
+
         //Plays the series of notes given
-        public static void PlayNotes(List<note> noteList)
+        public static void PlayNotes(List<Note> noteList)
         {
-            note[] noteArray = noteList.ToArray();
+            Note[] noteArray = noteList.ToArray();
             for (int i = 0; i < noteList.Count; i++)
             {
-                PlaySingleNote(noteList[i]);                
+                PlaySingleNote(noteList[i], 1000);
             }
         }
     }

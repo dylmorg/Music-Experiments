@@ -6,21 +6,9 @@ namespace testFolder
     {
         static void Main(string[] args)
         {
-           var lastNote = note.A;
-           while(true)
-           {
-               lastNote = GenerateNextNote(lastNote);
-
-           }
-        }
-        //Probably need to move into its own class
-        public static note GenerateNextNote(note lastNote)
-        {
-            lastNote = ++lastNote;
-            PlayNote.PlaySingleNote(lastNote);
-            return lastNote;
-        }
-        
-        
+            Note a = new Note(0, 5);
+            Scale testScale = new Scale(a, 8, Mode.Lydian);
+            PlayNote.PlayNotes(testScale.NotesInScale);
+        }               
     }
 }
