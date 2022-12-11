@@ -23,3 +23,6 @@ obj/Debug/netcoreapp3.1/testFolder.csprojAssemblyReference.cache
 obj/Debug/netcoreapp3.1/testFolder.dll
 obj/Debug/netcoreapp3.1/testFolder.exe
 obj/Debug/netcoreapp3.1/testFolder.pdb
+obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+obj/Debug/netcoreapp3.1/testFolder.csproj.AssemblyReference.cache
+obj/Debug/netcoreapp3.1/testFolder.GeneratedMSBuildEditorConfig.editorconfig
