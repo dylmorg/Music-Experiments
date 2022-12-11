@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace testFolder 
 {
-    //Actual class that plays any notes
+    //Actual class that plays any note
     public class PlayNote
     {
         
